@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/Desktop/Final_Project/TEST_IP/rtl/qsort.v" into library work
+INFO: [VRFC 10-311] analyzing module qsort
+INFO: [VRFC 10-311] analyzing module comp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/Desktop/Final_Project/TEST_IP/tb/qsort_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module qsort_tb

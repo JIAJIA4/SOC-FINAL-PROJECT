@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# xsim v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Jan 10 06:49:05 2024
+# Process ID: 37821
+# Current directory: /home/ubuntu/Desktop/Final_Project/TEST_IP
+# Command line: xsim -mode tcl -source {xsim.dir/qsort_tb_elab/xsim_script.tcl}
+# Log file: /home/ubuntu/Desktop/Final_Project/TEST_IP/xsim.log
+# Journal file: /home/ubuntu/Desktop/Final_Project/TEST_IP/xsim.jou
+# Running On: ubuntu2004, OS: Linux, CPU Frequency: 2496.002 MHz, CPU Physical cores: 4, Host memory: 12538 MB
+#-----------------------------------------------------------
+source xsim.dir/qsort_tb_elab/xsim_script.tcl
+# xsim {qsort_tb_elab} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+------------Start simulation-----------
+ Start SORT
+----Start the data input(AXI-Stream)----
+----End the coefficient input(AXI-lite)----
+OK: exp =           0, rdata =           1
+------End the data input(AXI-Stream)------
+[PASS] [Pattern          0] Golden answer:           1, Your answer:           1
+[PASS] [Pattern          1] Golden answer:           2, Your answer:           2
+[PASS] [Pattern          2] Golden answer:           3, Your answer:           3
+[PASS] [Pattern          3] Golden answer:           4, Your answer:           4
+[PASS] [Pattern          4] Golden answer:           5, Your answer:           5
+[PASS] [Pattern          5] Golden answer:           6, Your answer:           6
+[PASS] [Pattern          6] Golden answer:           7, Your answer:           7
+[PASS] [Pattern          7] Golden answer:           8, Your answer:           8
+[PASS] [Pattern          8] Golden answer:           9, Your answer:           9
+[PASS] [Pattern          9] Golden answer:          10, Your answer:          10
+[PASS] [Pattern         10] Golden answer:           x, Your answer:           1
+ERROR: exp =           2, rdata =          33
+OK: exp =           4, rdata =           7
+--------Simulation Failed---------
+$finish called at time : 825 ns : File "/home/ubuntu/Desktop/Final_Project/TEST_IP/tb/qsort_tb.v" Line 150
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Jan 10 06:49:08 2024...
